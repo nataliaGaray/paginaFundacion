@@ -1,0 +1,414 @@
+/* INDEX*/
+/* body */
+* {
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    background: linear-gradient(#46e9cc, #6f0489);
+    background-attachment: fixed;
+    overflow-x: hidden;
+    font-family:'Courier New', Courier, monospace;
+    }
+    
+/* header */
+.imgLogo {
+    width: 20%;
+    display: inline;
+    margin-top: 10px;
+    margin-right: 30px;
+    padding: 15px;
+    text-align: left;
+}
+.navegacion {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    background-color:#6f0489;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: right;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  
+    
+}
+.navegacion a {
+    
+    color: white;
+    text-decoration: none;
+    margin: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: color 0.3s;
+    font-family: monospace;
+    
+}
+.navegacion a:hover {
+    color: #46e9cc;
+}
+.pat {
+    width: 80%;
+    padding: 55px;
+    margin-left: 150px;
+}
+
+.videoContainer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 80px;
+}
+h2 {
+    font-size: 28px;
+  color: white;
+    text-align: left;
+   margin-top: 80px;
+   margin-top: 70 px;
+ }
+/* main */
+ul {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-family:'Mansalva', cursive;
+    margin: 20px 0;
+    text-align: left;
+    padding-left: 30px; 
+    color: rgb(38, 38, 107);
+    color: black;
+    color: white;
+    color: black;
+    font-size: 20px;
+}
+.image-container {
+    text-align: center;
+    margin: 40px;
+    margin-left: 70px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: left;
+    width: 100%;
+}
+.image{
+    width: 200px;
+}
+.inscribirseLink {
+    display: inline-block;
+    background-color: #46e9cc;
+    color:black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px; 
+    margin-left: 100pz
+    ;
+}
+
+.inscribirseLink:hover {
+    background-color: #6c0a50;
+}
+.cafecito{
+    width: 3px;
+}
+
+.redes {
+    width: 50px; 
+    height: auto; 
+    margin: 0 5px; 
+    text-align: right;
+}
+/* footer */
+.contenedor-footer{
+    text-align: right;
+  }
+.h2-footer {
+    text-align: right;
+ color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 25px;
+    line-height: 1;
+    padding: 2%;
+    margin: auto;
+}
+
+  .h3-footer {
+    font-family: monospace;
+    color: white;
+    font-size: 16px;
+    margin:0 auto;
+    text-align: right;
+}
+
+/* LA FUNDACION */
+
+.h1Paginas{
+    text-align: center;
+    color: white;
+    margin-top: 240px;
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Orbitron', sans-serif;
+}
+.parrafoH1 {
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-top: 30px;
+    background-image:url(/disenio/imagenes/fondo.jpg);
+    padding: 10px;
+}
+/* main */
+.equipoMiembro {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.equipoImage {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 10px; 
+}
+.chicas {
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    color: white;
+    color: black;
+    font-size: larger;
+}
+
+.pFunda{
+    color:black;
+    background-color: #e8d7f9ca;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-align:justify;
+    margin: 50px;
+    padding: 30px;
+    line-height: 1.5;
+}
+
+
+/* CONTACTO */
+.contah2{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+.contactas{
+    font-family:'Orbitron', sans-serif;
+    color: white;
+}
+.lineaFormularioContacto {
+    max-width: 100vh;
+    margin: 0 auto;
+    border-width: 2px;
+    border-color: azure;
+    margin-top: 20px;
+}
+.formularioContacto {
+    background: #e8d7f9ca;
+    padding: 10px;
+}
+.puente {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    text-align: justify;
+    margin: 20px;
+    background-color:#6f0489;
+}
+.cargaFormulario {
+    font-family:'Orbitron', sans-serif;
+}
+   
+/* QUE OFRECEMOS */
+.h1Cursos{
+    margin-top: 200px;
+    text-align: center;
+}
+.h2-curso {
+    text-align: center;
+    color: black;
+    font-family: monospace;
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 1,5;
+    padding: 5%;
+}
+.h3-cursos {
+    color:black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 26px;
+    text-align: left;
+    margin: 20px;
+    text-decoration: none;
+}
+.h4-cursos{
+    color: black;
+    font-family: monospace;
+    font-size: 25px;
+    text-align: center;
+    margin: 30px;
+}
+.p-cursos {
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+    font-family:'Orbitron', sans-serif; 
+    color: black;
+    font-size: medium;
+    text-align: left;
+    margin: 30px 0; 
+    padding: 5px;
+}
+.cursos {
+    width: 50%;
+    height: 50%;
+}
+/* BIBLIOTECH */
+.h1Biblio {
+    margin-top: 200px;
+    text-align: center;
+}
+.contenedor-texto {
+    width: 1000px;
+    border: 2px solid rgb(117, 7, 117);
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 30px auto; 
+    color: black;
+    background-color: #e8d7f9ca;
+    text-align: center;
+}
+.boton-inscripcion {
+    padding: 10px 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    background-color:  #46e9cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.p-biblio {
+    color: black;
+    font-family:'Orbitron', sans-serif; ;
+    font-size: medium;
+    text-align: left;
+    padding: 3%;
+    margin: 10px 0; 
+    line-height: 1.5;
+}
+.p-biblio-intro {
+    text-align: center;
+    color:white;
+    font-family:'Orbitron', sans-serif; 
+    font-size: 26px;
+    line-height: 1,5;
+    padding: 3%;
+}
+.h2-biblio {
+    text-align: center;
+    color: black;
+    font-family:monospace;
+    font-size: 26px;
+    line-height: 1,5;
+    margin: 20px;
+    padding:3%;
+}
+
+/* Media query para dispositivos con un ancho mínimo de 1200px */
+@media (min-width: 1200px) {
+    .imgLogo {
+        width: 15%;
+        margin-right: 30px;
+    }
+        #navegacion {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        text-align: right;
+    }
+
+    #somos {
+        margin: 30px 0;
+       
+        padding: 50px;
+    }
+    .videoContainer {
+        text-align: center;
+    }
+    .image-container {
+        margin: 50px;
+        display: flex;
+        justify-content: left;
+    }
+    .image {
+        width: 150px;
+    }
+    .inscribirseLink {
+        margin-top: 30px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    ul {
+        margin: 30px 0;
+        padding-left: 40px;
+    }
+    footer {
+        text-align: right;
+        margin-top: 70px;
+    }
+}
+/* Media query para dispositivos con un ancho mínimo de 768px */
+@media (min-width: 768px) {
+    .imgLogo {
+        width: 20%;
+        margin-right: 30px;
+    }
+    #navegacion {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        text-align: right;
+    }
+ 
+    #somos {
+        margin: 20px 0;
+        
+        padding: 15px;
+    }
+    .videoContainer {
+        text-align: center;
+    }
+    .image-container {
+        margin: 40px;
+        display: flex;
+        justify-content: left;
+    }
+    .image {
+        width: 190px;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .inscribirseLink {
+        margin-top: 20px;
+    }
+    h2 {
+        font-size: 28px;
+    
+      
+    }
+    ul {
+        margin: 20px 0;
+        padding-left: 30px;
+    }
+    footer {
+        text-align: right;
+        margin-top: 50px;
+    }
+}
