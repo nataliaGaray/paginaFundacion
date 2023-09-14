@@ -112,34 +112,41 @@ ul {
 }
 .cafecito{
     width: 3px;
+    border-bottom: 2px solid rgb(235, 212, 250);
+
 }
 
 .redes {
     width: 50px; 
     height: auto; 
     margin: 0 5px; 
-    text-align: right;
+    text-align: center;
 }
 /* footer */
 .contenedor-footer{
-    text-align: right;
+    border-top: 2px solid rgb(235, 212, 250);
+    padding: 1%;
+    text-align: center;
   }
 .h2-footer {
-    text-align: right;
- color: white;
-    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+ color: violet;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 25px;
     line-height: 1;
-    padding: 2%;
+    padding: 1%;
     margin: auto;
 }
 
   .h3-footer {
-    font-family: monospace;
-    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: violet;
     font-size: 16px;
     margin:0 auto;
-    text-align: right;
+    text-align: center;
+    padding: 1%;
+    border-bottom: 2px solid rgb(235, 212, 250);
+
 }
 
 /* LA FUNDACION */
@@ -196,10 +203,10 @@ ul {
 /* CONTACTO */
 .contah2{
     text-decoration: none;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .contactas{
-    font-family:'Orbitron', sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
 }
 .lineaFormularioContacto {
@@ -222,7 +229,7 @@ ul {
     background-color:#6f0489;
 }
 .cargaFormulario {
-    font-family:'Orbitron', sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
    
 /* QUE OFRECEMOS */
@@ -257,7 +264,7 @@ ul {
 .p-cursos {
     color:white;
     font-family:'Courier New', Courier, monospace;
-    font-family:'Orbitron', sans-serif; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
     color: black;
     font-size: medium;
     text-align: left;
@@ -295,7 +302,7 @@ ul {
 }
 .p-biblio {
     color: black;
-    font-family:'Orbitron', sans-serif; ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; ;
     font-size: medium;
     text-align: left;
     padding: 3%;
@@ -360,7 +367,7 @@ ul {
         padding-left: 40px;
     }
     footer {
-        text-align: right;
+        text-align: center;
         margin-top: 70px;
     }
 }
@@ -408,7 +415,7 @@ ul {
         padding-left: 30px;
     }
     footer {
-        text-align: right;
+        text-align: center;
         margin-top: 50px;
     }
 }
