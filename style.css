@@ -122,12 +122,14 @@ ul {
 }
 /* footer */
 .contenedor-footer{
-    text-align: right;
+    border-top: 2px solid #ffffff;
+  padding-top: 20px; 
+    text-align: center;
   }
 .h2-footer {
-    text-align: right;
+    text-align: center;
  color: white;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 25px;
     line-height: 1;
     padding: 2%;
@@ -139,7 +141,7 @@ ul {
     color: white;
     font-size: 16px;
     margin:0 auto;
-    text-align: right;
+    text-align: center;
 }
 
 /* LA FUNDACION */
@@ -199,7 +201,7 @@ ul {
     font-family: 'Courier New', Courier, monospace;
 }
 .contactas{
-    font-family:'Orbitron', sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
 }
 .lineaFormularioContacto {
@@ -222,7 +224,7 @@ ul {
     background-color:#6f0489;
 }
 .cargaFormulario {
-    font-family:'Orbitron', sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
    
 /* QUE OFRECEMOS */
@@ -295,7 +297,7 @@ ul {
 }
 .p-biblio {
     color: black;
-    font-family:'Orbitron', sans-serif; ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: medium;
     text-align: left;
     padding: 3%;
