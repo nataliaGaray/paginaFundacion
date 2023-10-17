@@ -17,20 +17,20 @@
        
         <div id="register-section" class="usuariaRegistro">
             <h2>Iniciar Sesión</h2>
-           
-            <div id="bienvenidaMensaje"></div>
-                  
-    <form id="login-form">
-                           
-    <input type="text" id="new-username" placeholder="Nombre de Usuaria" required>
-                <input type="password" id="new-password" placeholder="Contraseña" required>
-                <button type="submit">Iniciar Sesión</button>
-            </form>
-            <a href="./paginas/Registro.html">
-                <button type="button">Registrarme</button>
-            </a>
+            <div id="bienvenidaMensaje">
+                <form id="login-form">
+                    <input type="text" id="new-username" placeholder="Nombre de Usuaria" required>
+                    <input type="password" id="new-password" placeholder="Contraseña" required>
+                    <button type="submit" id="login-button">Iniciar Sesión</button>
+                    <button type="submit" id="forgot-password-button">Olvidé mi contraseña</button>
+
+                </form>
+                <div id="message" style="display: none;"></div>
+                <p>¿No tienes una cuenta? <a href="/paginas/Registro.html">Regístrate</a></p>
+            </div>
         </div>
-     
+        
+        
         <nav class="navegacion">
         <a href="paginas/laFundacion.html">LaFundación</a>
         <a href="paginas/queOfrecemos.html">QueOfrecemos</a>
@@ -42,12 +42,11 @@
      
                
         <img src="imagenes/patagFinal.jpg" alt="" class="pat"> 
-        >
+        
         <p class="parrafoH1">
             <strong>Somos una organización de mujeres</strong>
             <span class="animacion">que queremos más mujeres en el ecosistema TECnológico</span>
         </p>
-        
           
      
             <div class="videoContainer">
@@ -100,9 +99,9 @@
     <div>
        <img src="imagenes/tazaPri.jpg" class="image"></a>
     </div>
-    <div>
-        <button class="inscribirseLink" id="cafecito">INVITANOS UN CAFE</button>
-    </div>
+       <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
+data-preference-id="59122948-8f9eba91-a099-4859-958a-33e193c9ff9e" data-source="button">
+</script>
  
     
    
@@ -120,6 +119,7 @@
 
 
 <script src="script.js"></script>
+<script src="registro.js"></script>
 </body>
 </html>
 

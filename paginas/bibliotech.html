@@ -17,9 +17,13 @@
     <a href="queOfrecemos.html">Que Ofrecemos</a>
     <a href="laFundacion.html">La Fundación</a>
     <a href="contacto.html">Contacto</a>
-    <a href="paginas/Registro.html">Registro</a>
+    <a href="Registro.html">Registro</a>
 </nav>
 <h1 class="h1Paginas">Nuestra Biblioteca</h1>
+<p class="parrafoH1">
+    <strong>Somos una organización de mujeres</strong>
+    <span class="animacion">que queremos más mujeres en el ecosistema TECnológico</span>
+</p>
 <p class="parrafoH1">Queremos facilitarte lectura según el transito etario de las mujeres y su relación con la tecnología</p>
 </header>
 <main>
@@ -28,25 +32,30 @@
 <h2 class="h2-biblio">¿Qué es el machine learning y para qué sirve?</h2>
 <p class="p-biblio"> Estos avances conviven en un mismo ámbito, el de la inteligencia artificial, aunque no son exactamente lo mismo. En esta nota repasamos sus puntos en común, las diferencias entre los conceptos, además de sus respectivas ventajas.
 </p>
-<div>  <button class="inscribirseLink"><strong>LEER MÁS</strong></button>
-    <button class="inscribirseLink" id="traducirTexto">TRADUCIR TEXTO</button>
-    <div id="resultado"></div>
+<div>
+    <input type="text" id="textoParaTraducir" placeholder="Texto a traducir">
+    <select id="idiomaDestino">
+        <option value="es">Español</option>
+        <option value="fr">Francés</option>
+        <option value="de">Alemán</option>
+    </select>
+    <button class="inscribirseLink" id="traducirTextoButton">TRADUCIR TEXTO</button>
+    <div id="resultado" class="fade-in"></div>
 </div>
 
 <div class="contenedor-texto">
 <h2 class="h2-biblio">Inteligencia artificial: definiciones, ejemplos, su relevancia y versatilidad</h2>
-<p class="p-biblio"> Desarrollos de diversa índole basados en sistemas de inteligencia artificial (IA) consiguieron una gran visibilidad en la última década. En términos resumidos, la IA es una disciplina dentro de las ciencias informáticas cuyo propósito general es que las computadoras repliquen los procesos del pensamiento.
-    En otras palabras, la IA propone una síntesis y automatización de tareas intelectuales históricamente asociadas a los seres humanos, más allá del mero cálculo con el que las computadoras siempre estuvieron a gusto y piacere. 
-    Los avances del área no son precisamente novedosos. El término “inteligencia artificial” fue acuñado en una conferencia celebrada en 1956, aunque se estima que los desarrollos en el sector comenzaron un poco antes, luego de la Segunda Guerra Mundial a inicios de esa década.   
-    Tal como señalamos, en años recientes la fama de algunos sistemas de IA fue en aumento, y ahora son parte de la vida cotidiana de los usuarios de herramientas digitales. Por mencionar algunos ejemplos, hemos visto máquinas que vencieron a los campeones mundiales de ajedrez, traductores instantáneos y mecanismos de reconocimiento facial, también desarrollos basados en IA diseñados para la detección temprana de enfermedades, hasta tecnologías inscriptas en ese terreno que se animan a realizar tareas creativas, por caso escribir poemas o pintar cuadros sin auxilio directo.   
-    De tal magnitud es el impacto de la IA en la sociedad contemporánea, que expertos han alertado acerca de los potenciales peligros que supone el vertiginoso despliegue de estas tecnologías. No se trata de omitir sus beneficios, que son múltiples, sino de establecer normativas para reglamentar su avance.
-    A fines de 2021, el profesor Suart Russell, fundador del Center for Human-Compatible Artificial Intelligence pidió que se avance en regulaciones para estos desarrollos. Tal como señaló el sitio La Vanguardia, Russell remarcó la importancia de revisar la forma que “asegure que los humanos siempre mantendrán bajo control a una tecnología que cada vez es más inteligente y poderosa”.
-    Otras figuras, entre ellos el empresario Elon Musk y el presidente de Microsoft, Brad Smith, encendieron las alarmas respecto al avance irrestricto de las tecnologías basadas en IA.
-    Con sus encantadoras promesas y a su vez con la necesidad de reglas que ayuden a tomar lo mejor de estos avances; lo cierto es que el espectro de la inteligencia artificial es realmente versátil y en función de esa vastedad en ocasiones se emplean erróneamente terminologías como sinónimos. Un ejemplo clásico es el uso de machine learning y deep learning como si fuesen el mismo e idéntico asunto, cuando en realidad no es así. A continuación revisaremos qué son, en cada caso, además de los usos y ventajas que ofrecen.  
+<p class="p-biblio"> Gender differences in STEM education participation at the expense of girls begin as early as ECCE in  science- and math-related play, and are more visible at higher levels of education. •Girls appear to lose interest in STEM subjects with age, particularly between early and late adolescence.  This lowered interest affects participation in advanced studies at secondary-level.•Gender gaps in STEM education participation become more obvious in higher education. Female students represent only 35% of all students enrolled in STEM-related fields of study at this level globally. Differences are also observed by disciplines, with female enrolment lowest in engineering, manufacturing and construction, natural science, mathematics and statistics and ICT fields.•Significant regional and country differences in female representation in STEM studies can be observed, suggesting the presence of contextual factors affecting girls’ and women’s engagement in these fields. •Women leave STEM disciplines in disproportionate numbers during their higher education studies, in  their transition to the world of work and even in their career cycle
 </p>
-<button class="inscribirseLink"><strong>LEER MÁS</strong></button>
-<button class="inscribirseLink" id="traducirTexto">TRADUCIR TEXTO</button>
-    <div id="resultado"></div>
+<div>
+    <input type="text" id="textoParaTraducir" placeholder="Texto a traducir">
+    <select id="idiomaDestino">
+        <option value="es">Español</option>
+        <option value="fr">Francés</option>
+        <option value="de">Alemán</option>
+    </select>
+    <button class="inscribirseLink" id="traducirTextoButton">TRADUCIR TEXTO</button>
+    <div id="resultado" class="fade-in"></div>
 </div>
 <div class="contenedor-texto">
 <h2 class="h2-biblio">5 datos sobre el machine learning</h2>
@@ -60,14 +69,19 @@
     La detección automática de correo basura (spam) es un caso relativamente simple: se trata de un algoritmo diseñado para realizar sus identificaciones en forma automática en base a una serie de patrones comunes en esos correos.
     Las recomendaciones en plataformas de streaming, como Netflix o Spotify. ¿Cómo saben qué serie o música podría gustarte? Detrás de estos servicios operan algoritmos que analizan información y arrojan sus consejos de contenido.
 </p>
-<button class="inscribirseLink"><strong>LEER MÁS</strong></button>
-<button class="inscribirseLink" id="">TRADUCIR TEXTO</button>
+<div>
+    <input type="text" id="textoParaTraducir" placeholder="Texto a traducir">
+    <select id="idiomaDestino">
+        <option value="es">Español</option>
+        <option value="fr">Francés</option>
+        <option value="de">Alemán</option>
+    </select>
+    <button class="inscribirseLink" id="traducirTextoButton">TRADUCIR TEXTO</button>
+    <div id="resultado" class="fade-in"></div>
 </div>
 </main>
 <footer>
-    <input type="button" value="QUIERO RECIBIR NOVEDADES"  id="btnNovedades"class="inscribirseLink">
-
-    <div class="contenedor-footer">
+   <div class="contenedor-footer">
     <a href="https://web.whatsapp.com/"><img src="../imagenes/whatsBlanc.png" alt="whatsapp" class="redes"></a>
     <a href="https://www.youtube.com/"><img src="../imagenes/youtubeBlanco.png" alt="youtube" class="redes"></a>
     <a href="https://www.instagram.com/patagonicas_en_tec/"><img src="../imagenes/istaBlanc.png" alt="IG" class="redes"></a> 
@@ -75,6 +89,6 @@
     <h3 class="h3-footer">© 2023 Patagónicas En Tecnología, todos los derechos reservados.</h3>
     </div>
 </footer> 
-<script src="../script.js"></script>
+<script src="../bibliotech.js"></script>
 </body>
 </html>

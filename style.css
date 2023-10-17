@@ -84,6 +84,16 @@ body {
 }
 
 
+
+/* Estilo para el enlace "No tienes una cuenta" */
+p a {
+    font-size: 18px; /* Cambia el tamaño de fuente según tus preferencias. */
+    background-color: white; /* Cambia el fondo a blanco. */
+    padding: 5px 10px; /* Agrega espaciado alrededor del texto si es necesario. */
+    text-decoration: none; /* Elimina la subrayado del enlace. */
+}
+
+
 .videoContainer {
     text-align: center;
     margin-top: 50px;
