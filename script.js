@@ -1,3 +1,34 @@
+
+  // ANIMAR EL PARRAFO
+  document.addEventListener("DOMContentLoaded", function() {
+    
+    const parrafo = document.querySelector(".parrafoH1");
+  
+   
+    parrafo.classList.add("animado");
+  });
+  
+
+// TACHAR LOS NO
+
+// Espera a que la página se cargue completamente
+document.addEventListener("DOMContentLoaded", function() {
+    // Obtiene la lista de elementos
+    const lista = document.getElementById("miLista");
+    const elementos = lista.getElementsByTagName("li");
+  
+    // Función para tachar elementos con retraso
+    function tacharElementos(index) {
+        if (index < elementos.length) {
+            const elemento = elementos[index];
+            elemento.innerHTML = "<s>" + elemento.innerHTML + "</s";
+            // Agregar un retraso de 500 milisegundos (0.5 segundos)
+            setTimeout(function() {
+                tacharElementos(index + 1);
+            }, 3000);
+        }
+    }
+
 // CAFECITO
 document.addEventListener("DOMContentLoaded", function() {
     const buttonCafecito = document.getElementById("cafecito");
@@ -107,35 +138,6 @@ document.addEventListener("DOMContentLoaded", function() {
   
 
 
-  // ANIMAR EL PARRAFO
-  document.addEventListener("DOMContentLoaded", function() {
-    
-    const parrafo = document.querySelector(".parrafoH1");
-  
-   
-    parrafo.classList.add("animado");
-  });
-  
-
-// TACHAR LOS NO
-
-// Espera a que la página se cargue completamente
-document.addEventListener("DOMContentLoaded", function() {
-    // Obtiene la lista de elementos
-    const lista = document.getElementById("miLista");
-    const elementos = lista.getElementsByTagName("li");
-  
-    // Función para tachar elementos con retraso
-    function tacharElementos(index) {
-        if (index < elementos.length) {
-            const elemento = elementos[index];
-            elemento.innerHTML = "<s>" + elemento.innerHTML + "</s";
-            // Agregar un retraso de 500 milisegundos (0.5 segundos)
-            setTimeout(function() {
-                tacharElementos(index + 1);
-            }, 3000);
-        }
-    }
 
     tacharElementos(0);
   });
