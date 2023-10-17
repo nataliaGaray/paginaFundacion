@@ -9,43 +9,82 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Mansalva&family=Smooch&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Smooch&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="https://www.mercadopago.com/v2/security.js"></script>
 </head>
 <body>
     <header>
         <img src= "imagenes/logoPatagonicas.png" alt="logo" class="imgLogo">
+       
+        <div id="register-section" class="usuariaRegistro">
+            <h2>Iniciar Sesión</h2>
+           
+            <div id="bienvenidaMensaje"></div>
+                  
+    <form id="login-form">
+                           
+    <input type="text" id="new-username" placeholder="Nombre de Usuaria" required>
+                <input type="password" id="new-password" placeholder="Contraseña" required>
+                <button type="submit">Iniciar Sesión</button>
+            </form>
+            <a href="./paginas/Registro.html">
+                <button type="button">Registrarme</button>
+            </a>
+        </div>
+     
         <nav class="navegacion">
         <a href="paginas/laFundacion.html">LaFundación</a>
         <a href="paginas/queOfrecemos.html">QueOfrecemos</a>
         <a href="paginas/bibliotech.html">Bibliotech</a>
         <a href="paginas/contacto.html">Contacto</a>
+        <a href="paginas/Registro.html">Registro</a>
         </nav>
-        
+      
+     
+               
         <img src="imagenes/patagFinal.jpg" alt="" class="pat"> 
         >
-        <p class="parrafoH1"><strong>Somos una organización de mujeres que busca incorporar MUJERES al ecosistema TECnológico</strong></p>
-        <div class="videoContainer">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/A10lnS246qE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <div>
+        <p class="parrafoH1">
+            <strong>Somos una organización de mujeres</strong>
+            <span class="animacion">que queremos más mujeres en el ecosistema TECnológico</span>
+        </p>
+        
+          
+     
+            <div class="videoContainer">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/A10lnS246qE"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                    id="videoPlayer"
+                ></iframe>
+                        </div>
+            
     </header>
     <main>
         <h2>VAMOS POR LOS SI</h2>
-        <ul>
-           
-        <li><strong>No tengo la capacidad</strong></li>
-        <li><strong>No tengo tiempo</strong></li>
-        <li> <strong>No es para mi</strong></li>
-        <li><strong>No es necesario</strong></li>
-        <li><strong>No es de mujeres</strong></li>
-        </ul>
-        <h2>FORMACIONES GRATUITAS</h2>
-        <div class="image-container">
-        <img src="imagenes/blockchain.png" alt="blockchain" class="image">
-        <img src="imagenes/robotica.png" alt="robotica" class="image">
-        <img src="imagenes/ia.png" alt="inteligenciaArtificial" class="image">
-        <img src="imagenes/realidad-aumentada.png" alt="realidadAumentada" class="image">
-        </div>
-        <a href="paginas/queOfrecemos.html" class="inscribirseLink">Inscribirse</a>
-        <h2>FORMACIONES PAGAS</h2>
+        <ul id="miLista">
+            <li><strong>No tengo la capacidad</strong></li>
+            <li><strong>No tengo tiempo</strong></li>
+            <li><strong>No es para mi</strong></li>
+            <li><strong>No es necesario</strong></li>
+            <li><strong>No es de mujeres</strong></li>
+        </ul>    
+
+            <h2>FORMACIONES GRATUITAS</h2>
+            <div class="image-container">
+                <img src="imagenes/blockchain.png" alt="blockchain" class="image">
+                <img src="imagenes/robotica.png" alt="robotica" class="image">
+                <img src="imagenes/ia.png" alt="inteligenciaArtificial" class="image">
+                <img src="imagenes/realidad-aumentada.png" alt="realidadAumentada" class="image">
+            </div>
+            <input type="button" value="Mas información" id="btnNovedades" class="inscribirseLink">
+            
+                     
+        <h2>Formaciones pagas</h2>
         <div class="image-container">
         <img src="imagenes/nivel1.jpg" alt="nivel1" class="image">
         <img src="imagenes/cienciaDeDatos.jpg" alt="cienciadedatos" class="image">
@@ -53,10 +92,20 @@
         <img src="imagenes/Machine-learning.jpg" alt="machineLearning" class="image">
 
         </div> 
-        <a href="paginas/queOfrecemos.html" class="inscribirseLink">Inscribirse</a>
-        <h2>COLABORA CON NOSOTRAS</h2>
-        <a href="paginas/contacto.html"><img src="imagenes/tazaPri.jpg" class="image"></a>
-        <a href="paginas/queOfrecemos.html" class="inscribirseLink">Invito yo</a>
+        <input type="button" value="Mas información" id="btnNovedades" class="inscribirseLink">
+        
+   
+    <h2>COLABORA CON NOSOTRAS</h2>
+   
+    <div>
+       <img src="imagenes/tazaPri.jpg" class="image"></a>
+    </div>
+    <div>
+        <button class="inscribirseLink" id="cafecito">INVITANOS UN CAFE</button>
+    </div>
+ 
+    
+   
     </main>
     <footer>
         <div class="contenedor-footer">
@@ -67,8 +116,8 @@
         <h3 class="h3-footer">© 2023 Patagónicas En Tecnología, todos los derechos reservados.</h3>
         </div>
 </footer> 
-<input type="button" value="QUIERO RECIBIR NOVEDADES" id="btnNovedades" class="inscribirseLink">
-<input type="button" value="QUIERO VER MI REGISTRO" id="btnMostrar" class="inscribirseLink">
+
+
 
 <script src="script.js"></script>
 </body>

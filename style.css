@@ -34,6 +34,7 @@ body {
   
     
 }
+
 .navegacion a {
     
     color: white;
@@ -48,17 +49,50 @@ body {
 .navegacion a:hover {
     color: #46e9cc;
 }
+
+.usuariaRegistro{
+    background-color: #6f0489;
+    position:left;
+}
+.iniciarSesion {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    /* background-color:#6f0489;  */
+    padding: 15px; 
+    border-radius: 5px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+    text-align: right;
+  
+    
+}
 .pat {
     width: 80%;
     padding: 55px;
     margin-left: 150px;
 }
+.parrafoH1 .animacion {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(1em);
+    transition: opacity 2s, transform 2s;
+}
+
+.parrafoH1.animado .animacion {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 
 .videoContainer {
     text-align: center;
     margin-top: 50px;
     padding: 80px;
+    border-radius: 200px;
+    box-shadow: 0 0 10px #46e9cc; 
 }
+
+
 h2 {
     font-size: 28px;
   color: white;
@@ -91,6 +125,39 @@ ul {
 .image{
     width: 200px;
 }
+
+.carousel-container {
+    display: flex;
+    overflow: hidden;
+    width: 300px; /* Ajusta el ancho a tus necesidades */
+}
+
+.carousel-slide {
+    min-width: 300px; /* Ajusta el ancho a tus necesidades */
+    transition: transform 0.5s ease;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+}
+
+.prev-button, .next-button {
+    margin-top: 10px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
 .inscribirseLink {
     display: inline-block;
     background-color: #46e9cc;
