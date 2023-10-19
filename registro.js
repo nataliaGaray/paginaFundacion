@@ -1,6 +1,5 @@
 
-  // Add this script tag within the HTML document
-  document.getElementById("registro-form").addEventListener("submit", function(e) {
+   document.getElementById("registro-form").addEventListener("submit", function(e) {
     e.preventDefault();
 
     const nombre = document.getElementById("nombre").value;
@@ -23,7 +22,7 @@
       password: contrasena
     };
 
-    // Obtener la base de datos simulada (debe coincidir con la de index.html)
+    // ObtenER la base de datos simulada 
     let database = JSON.parse(localStorage.getItem("database")) || [];
 
     // Verificar si el nombre de usuaria ya existe
@@ -39,6 +38,6 @@
     localStorage.setItem("database", JSON.stringify(database));
 
     alert("¡Bienvenida a Patagónicas en Tec!");
-    window.location.href = "../index.html"; // Redirige al índice
+    window.location.href = "../index.html"; 
   });
 

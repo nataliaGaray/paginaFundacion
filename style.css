@@ -125,6 +125,7 @@ body {
     margin: 10px 2px;
     cursor: pointer;
 }
+/* Estilo para el botón de registrarse */
 
 #register-button {
     font-family: monospace;
@@ -149,25 +150,15 @@ body {
     border-radius: 4px;
     box-sizing: border-box;
     font-size: 16px;
-    font-family: monospace; /* Fuente monoespaciada */
+    font-family: monospace; 
 }
 
-/* Cambiar el color del texto del marcador de posición a negro */
+Cambiar el color del texto del marcador de posición a negro
 #new-username::placeholder,
 #new-password::placeholder {
-    color:#6f0489; /* Color del texto de marcador de posición */
+    color:#6f0489; 
 }
-
-
-/* Estilo para el enlace "No tienes una cuenta" */
-p a {
-    font-size: 18px; /* Cambia el tamaño de fuente según tus preferencias. */
-    background-color: white; /* Cambia el fondo a blanco. */
-    padding: 5px 10px; /* Agrega espaciado alrededor del texto si es necesario. */
-    text-decoration: none; /* Elimina la subrayado del enlace. */
-}
-
-
+/* Estilo para el video */
 .videoContainer {
     text-align: center;
     margin-top: 50px;
@@ -176,7 +167,7 @@ p a {
     box-shadow: 0 0 10px #46e9cc; 
 }
 
-
+/* Estilo para los h2 */
 h2 {
     font-size: 28px;
   color: white;
