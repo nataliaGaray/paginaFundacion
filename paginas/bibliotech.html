@@ -11,28 +11,68 @@
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
+    
 <header>
-<nav class="navegacion">
-    <a href="../index.html">Inicio</a>
-    <a href="queOfrecemos.html">Que Ofrecemos</a>
-    <a href="laFundacion.html">La Fundación</a>
-    <a href="contacto.html">Contacto</a>
-    <a href="Registro.html">Registro</a>
-</nav>
-<h1 class="h1Paginas">Nuestra Biblioteca</h1>
-<p class="parrafoH1">
-    <strong>Somos una organización de mujeres</strong>
-    <span class="animacion">que queremos más mujeres en el ecosistema TECnológico</span>
-</p>
-<p class="parrafoH1">Queremos facilitarte lectura según el transito etario de las mujeres y su relación con la tecnología</p>
+    <nav class="navegacion">
+        <a href="../index.html">Inicio</a>
+        <a href="queOfrecemos.html">Que Ofrecemos</a>
+        <a href="laFundacion.html">La Fundación</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="Registro.html">Registro</a>
+    </nav>
+    <h1 class="h1Paginas">Nuestra Biblioteca</h1>
+    <p class="parrafoH1">
+        <strong>Somos una organización de mujeres</strong>
+        <span class="animacion">que queremos más mujeres en el ecosistema TECnológico</span>
+    </p>
+    <p class="parrafoH1">Queremos facilitarte lectura según el transito etario de las mujeres y su relación con la tecnología</p>
 </header>
 <main>
     <h2>Conceptos básicos</h2>
-<div class="contenedor-texto">
-<h2 class="h2-biblio">¿Qué es el machine learning y para qué sirve?</h2>
-<p class="p-biblio"> Estos avances conviven en un mismo ámbito, el de la inteligencia artificial, aunque no son exactamente lo mismo. En esta nota repasamos sus puntos en común, las diferencias entre los conceptos, además de sus respectivas ventajas.
-</p>
-<div>
+    <div class="contenedor-texto">
+        <h2 class="h2-biblio">¿Qué es el machine learning y para qué sirve?</h2>
+        <p class="p-biblio"> Estos avances conviven en un mismo ámbito, el de la inteligencia artificial, aunque no son exactamente lo mismo. En esta nota repasamos sus puntos en común, las diferencias entre los conceptos, además de sus respectivas ventajas.</p>
+        <div>
+            <input type="text" id="textoParaTraducir" placeholder="Texto a traducir">
+            <select id="idiomaDestino">
+                <option value="es">Español</option>
+                <option value="fr">Francés</option>
+                <option value="de">Alemán</option>
+            </select>
+            <button class="inscribirseLink" id="traducirTextoButton">TRADUCIR TEXTO</button>
+            <div id="resultado" class="fade-in"></div>
+        </div>
+    </div>
+    
+    <div class="contenedor-texto">
+        <h2 class="h2-biblio">Inteligencia artificial: definiciones, ejemplos, su relevancia y versatilidad</h2>
+        <p class="p-biblio"> Gender differences in STEM education participation at the expense of girls begin as early as ECCE in  science- and math-related play, and are more visible at higher levels of education. •Girls appear to lose interest in STEM subjects with age, particularly between early and late adolescence.  This lowered interest affects participation in advanced studies at secondary-level.•Gender gaps in STEM education participation become more obvious in higher education. Female students represent only 35% of all students enrolled in STEM-related fields of study at this level globally. Differences are also observed by disciplines, with female enrolment lowest in engineering, manufacturing and construction, natural science, mathematics and statistics and ICT fields.•Significant regional and country differences in female representation in STEM studies can be observed, suggesting the presence of contextual factors affecting girls’ and women’s engagement in these fields. •Women leave STEM disciplines in disproportionate numbers during their higher education studies, in  their transition to the world of work and even in their career cycle
+        </p>
+        <div>
+            <input type="text" id="textoParaTraducir2" placeholder="Texto a traducir">
+            <select id="idiomaDestino2">
+                <option value="es">Español</option>
+                <option value="fr">Francés</option>
+                <option value="de">Alemán</option>
+            </select>
+            <button class="inscribirseLink" id="traducirTextoButton2">TRADUCIR TEXTO</button>
+            <div id="resultado2" class="fade-in"></div>
+        </div>
+    </div>
+    <div class="contenedor-texto">
+        <h2 class="h2-biblio">5 datos sobre el machine learning</h2>
+        <p class="p-biblio"> Al español se traduce como “aprendizaje automático”.
+            Es una rama de la inteligencia artificial.
+            El concepto hace referencia a los softwares que usan algoritmos para encontrar patrones comunes en los datos con los que son entrenados.
+            La automatización de los procesos es una de las características fundamentales de estos desarrollos. En términos generales, las tareas que realizan se ejecutan sin una programación específica y sin depender en ese momento de la operación manual (de un humano). Usualmente, se emplean para predicciones o sugerencias.
+            Entre las ventajas que ofrece el machine learning se destaca la producción rápida y automática de modelos capaces de analizar grandes paquetes de datos, arrojando resultados más precisos y rápidos. Esto se traduce en beneficios en múltiples sectores, desde las grandes industrias, el mundo empresarial, la gestión de gobierno, hasta el entretenimiento y los sistemas tecnológicos hogareños.
+            Ejemplos de machine learning
+            Si bien el concepto de aprendizaje automático podría resultar a priori más propio de los laboratorios científicos que de nuestros hogares, lo cierto es que los avances del sector están presentes en sistemas que usamos a diario. A continuación compartimos algunos ejemplos que, con menor o mayor complejidad, son aplicaciones con machine learning.
+            La detección automática de correo basura (spam) es un caso relativamente simple: se trata de un algoritmo diseñado para realizar sus identificaciones en forma automática en base a una serie de patrones comunes en esos correos.
+            Las recomendaciones en plataformas de streaming, como Netflix o Spotify. ¿Cómo saben qué serie o música podría gustarte? Detrás de estos servicios operan algoritmos que analizan información y arrojan sus consejos de contenido.
+        </p>
+        <div>
+            
     <input type="text" id="textoParaTraducir" placeholder="Texto a traducir">
     <select id="idiomaDestino">
         <option value="es">Español</option>

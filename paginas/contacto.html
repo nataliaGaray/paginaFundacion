@@ -30,105 +30,60 @@
     
     </header>
     <main>
-    <form>
-    <h2 class="contah2">Nos contactas cómo...</h2>
-    <div class="contactas"><input type="radio"><strong>Entidad Solidaria</strong></div>
-    <div class="contactas"><input type="radio"><strong>Organismo de gobierno</strong></div>
-    <div class="contactas"><input type="radio"><strong>Organismo Internacional</strong></div>
-    <div class="contactas"><input type="radio"><strong>Sector privado</strong></div>
-    <div class="contactas"><input type="radio"><strong>Estudiante</strong></div>
-    <div class="contactas"><input type="radio"><strong>Contacto general</strong></div>
-</form>
-
-
-<h2 class="contah2">Completa la siguiente info de contacto</h2>
-<fieldset class="lineaFormularioContacto">
+        <form>
+            <h2 class="contah2">Nos contactas cómo...</h2>
+            <div class="contactas">
+                <input type="radio" name="contact_type" value="Entidad Solidaria" id="entidad_solidaria">
+                <label for="entidad_solidaria"><strong>Entidad Solidaria</strong></label>
+            </div>
+            <div class="contactas">
+                <input type="radio" name="contact_type" value="Organismo de gobierno" id="organismo_gobierno">
+                <label for="organismo_gobierno"><strong>Organismo de gobierno</strong></label>
+            </div>
+            <div class="contactas">
+                <input type="radio" name="contact_type" value="Organismo Internacional" id="organismo_internacional">
+                <label for="organismo_internacional"><strong>Organismo Internacional</strong></label>
+            </div>
+            <div class="contactas">
+                <input type="radio" name="contact_type" value="Sector privado" id="sector_privado">
+                <label for="sector_privado"><strong>Sector privado</strong></label>
+            </div>
+            <div class="contactas">
+                <input type="radio" name="contact_type" value="Estudiante" id="estudiante">
+                <label for="estudiante"><strong>Estudiante</strong></label>
+            </div>
+            <div class="contactas">
+                <input type="radio" name="contact_type" value="Contacto general" id="contacto_general">
+                <label for="contacto_general"><strong>Contacto general</strong></label>
+            </div>
+        </form>
+        
+        <h2 class="contah2">Completa la siguiente info de contacto</h2>
+        <fieldset class="lineaFormularioContacto">
             <legend><strong>Formulario de contacto</strong></legend>
             <form class="formularioContacto">
                 <div>
-                   <label class="cargaFormulario" for=""><strong>Nombre</strong></label>
-                    <input class="cargaFormulario" type="text">
-                <div>
-                    <label class="cargaFormulario" for=""><strong>Apellido</strong></label>
-                    <input class="cargaFormulario" type="text">
+                    <label class="cargaFormulario" for="nombre"><strong>Nombre</strong></label>
+                    <input class="cargaFormulario" type="text" id="nombre">
                 </div>
                 <div>
-                    <label class="cargaFormulario" for=""> <strong>Correo electrónico</strong></label>
-                    <input class="cargaFormulario" type="email">
+                    <label class="cargaFormulario" for="apellido"><strong>Apellido</strong></label>
+                    <input class="cargaFormulario" type="text" id="apellido">
                 </div>
                 <div>
-                    <label class="cargaFormulario"> <strong>Dejanos tu mensaje</strong></label>
+                    <label class="cargaFormulario" for="correo"><strong>Correo electrónico</strong></label>
+                    <input class="cargaFormulario" type="email" id="correo">
                 </div>
                 <div>
-                    <textarea class="cuadroMensaje" name="mensaje" id="" cols="30" rows="10"></textarea>
+                    <label class="cargaFormulario" for="mensaje"><strong>Dejanos tu mensaje</strong></label>
                 </div>
-                
-            <!-- <p class="puente">Antes de enviar tu mensaje contanos que cursos te interesan y te mandamos toda la información</p>
-            <h3>Nuestros cursos disponibles para adultas mayores (18+)</h3> -->
-
-         
-            <!-- </div> <input type="button" value="Quiero consultar" class="inscribirseLink">
-            <input type="button" value="ME QUIERO INSCRIBIR" class="inscribirseLink"> -->
-
-
-            <!-- <fieldset class="cargaFormulario">
-                <legend><strong>Nivel 1 - Principiantes</strong></legend>
-                <div><input type="checkbox">Cuarta Revolución Industrial: ¿Qué es la Industria 4.0? </div>
-                <div><input type="checkbox">Gestión de Proyectos IT </div>
-                <div><input type="checkbox">Fundamentos de Lógica de Programación</div>
-                <div><input type="checkbox">Pensamiento Computacional y Resolución de Problemas</div>
-                <div><input type="checkbox">Principales Lenguajes de Programación y Para Qué Se Usan</div>   
-            </fieldset>
-
-            <fieldset class="cargaFormulario">
-                <legend><strong>Nivel 2 - Avanzados</strong></legend>
-                <fieldset>
-                    <legend><strong>Te interesa el mundo de los datos?</strong></legend>
-                    <div class="cargaFormulario"><input type="checkbox">Introducción a la Ciencia de Datos</div>
-                    <div class="cargaFormulario"><input type="checkbox">Fundamentos del Machine Learning</div>
-                    <div><input type="checkbox">Análisis de Datos con Excel</div>
-                    <div><input type="checkbox">Programación en Python para Principiantes</div>
-                    <div><input type="checkbox">Big Data: Conceptos y Aplicaciones</div>
-                    <div><input type="checkbox">Introducción a la Estadística</div>
-                    <div><input type="checkbox">Visualización de Datos</div>
-                </fieldset>
-                <fieldset>
-                    <legend><strong>¿Te interesa hacer páginas web o apps?</strong></legend>
-                    <div><input type="checkbox">Introducción al Desarrollo Web</div>
-                    <div><input type="checkbox">Diseño de Experiencia de Usuario (UX)</div>
-                    <div><input type="checkbox">Fundamentos de Programación Orientada a Objetos</div>
-                    <div><input type="checkbox">Desarrollo de Aplicaciones Móviles</div>
-                </fieldset>
-                <fieldset>
-                    <legend><strong>¿Te interesa el Metaverso?</strong></legend>
-                    <div><input type="checkbox">Introducción a la Realidad Virtual (VR) y Aumentada (AR)</div>
-                    <div><input type="checkbox">Diseño y Desarrollo de Videojuegos</div>
-                    <div><input type="checkbox">Programación en Unity o Unreal Engine</div>
-                    <div><input type="checkbox">Introducción a la 3D Computer Graphics</div>
-                    <div><input type="checkbox">Diseño de Experiencia de Usuario (UX) para Realidad Virtual y Aumentada</div>
-                    <div><input type="checkbox">Ciberseguridad</div>
-                    <div><input type="checkbox">Ética y Derecho en Realidad Virtual y Aumentada</div>
-                </fieldset>
-                <fieldset>
-                    <legend><strong>¿Te interesa el Blockchain o el mundo Cripto?</strong></legend>
-                    <div><input type="checkbox">Introducción al Blockchain y Criptomonedas</div>
-                    <div><input type="checkbox">Fundamentos de Criptomonedas y Bitcoin</div>
-                    <div><input type="checkbox">Programación de Smart Contracts en Ethereum</div>
-                    <div><input type="checkbox">Aplicaciones Blockchain en Negocios y Finanzas</div>
-                    <div><input type="checkbox">Ciberseguridad y Blockchain</div>
-                    <div><input type="checkbox">Ética y Regulación del Blockchain y las Criptomonedas</div>
-                </fieldset>
-                <fieldset>
-                    <legend><strong>¿Te interesa la Ciberseguridad?</strong></legend>
-                    <div><input type="checkbox">Introducción a la Ciberseguridad</div>
-                    <div><input type="checkbox">Fundamentos de la Seguridad de la Información</div>
-                    <div><input type="checkbox">Ciberseguridad y la Ley</div>
-                    <div><input type="checkbox">Principios de la Criptografía</div>
-                    <div><input type="checkbox">Principios de la Seguridad de Aplicaciones</div>
-                </fieldset> -->
-                <input type="submit" value="Enviar" class="inscribirseLink">
-
-            </fieldset>
+                <div>
+                    <textarea class="cuadroMensaje" id="mensaje" cols="30" rows="10"></textarea>
+                </div>
+                <button type="button" onclick="guardarDatos()">Enviar</button>
+            </form>
+        </fieldset>
+        
 
            
             </div>
@@ -141,7 +96,7 @@
      
         </main>
         <footer>
-            <input type="button" value="QUIERO RECIBIR NOVEDADES"  id="btnNovedades" class="inscribirseLink">
+          
 
 
             <div class="contenedor-footer">
@@ -152,6 +107,7 @@
             <h3 class="h3-footer">© 2023 Patagónicas En Tecnología, todos los derechos reservados.</h3>
             </div>
         </footer>
+        <script src="../contacto.js" ></script>
         <script src="../script.js"></script>
 </body>
 </html>

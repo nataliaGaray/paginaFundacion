@@ -49,23 +49,6 @@ body {
 .navegacion a:hover {
     color: #46e9cc;
 }
-
-.usuariaRegistro{
-    background-color: #6f0489;
-    position:left;
-}
-.iniciarSesion {
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    /* background-color:#6f0489;  */
-    padding: 15px; 
-    border-radius: 5px;
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
-    text-align: right;
-  
-    
-}
 .pat {
     width: 80%;
     padding: 55px;
@@ -73,6 +56,8 @@ body {
 }
 .parrafoH1 .animacion {
     display: inline-block;
+    color: #46e9cc;
+    font-size: larger;
     opacity: 0;
     transform: translateY(1em);
     transition: opacity 2s, transform 2s;
@@ -83,6 +68,95 @@ body {
     transform: translateY(0);
 }
 
+
+.usuariaRegistro{
+    background-color: rgb(5, 66, 5);
+    position: initial;
+}
+.iniciarSesion {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    padding: 15px; 
+    border-radius: 5px;
+    text-align: right;
+}
+/* Estilo para los campos de entrada */
+#new-username,
+#new-password {
+    font-family: monospace;
+    color: black;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #46e9cc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+
+
+/* Estilo para el botón de inicio de sesión */
+    #login-button {
+    font-family: monospace;
+    background-color: #6f0489;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+}
+
+/* Estilo para el botón de olvidar contraseña */
+#forgot-password-button {
+    font-family: monospace;
+    background-color: #46e9cc;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+}
+
+#register-button {
+    font-family: monospace;
+    background-color: #46e9cc;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;  
+}
+/* Estilo para los campos de entrada */
+#new-username,
+#new-password {
+    /* width: 100%; */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: monospace; /* Fuente monoespaciada */
+}
+
+/* Cambiar el color del texto del marcador de posición a negro */
+#new-username::placeholder,
+#new-password::placeholder {
+    color:#6f0489; /* Color del texto de marcador de posición */
+}
 
 
 /* Estilo para el enlace "No tienes una cuenta" */
@@ -136,36 +210,9 @@ ul {
     width: 200px;
 }
 
-.carousel-container {
-    display: flex;
-    overflow: hidden;
-    width: 300px; /* Ajusta el ancho a tus necesidades */
-}
-
-.carousel-slide {
-    min-width: 300px; /* Ajusta el ancho a tus necesidades */
-    transition: transform 0.5s ease;
-}
-
 .image {
     max-width: 100%;
     height: auto;
-}
-
-.prev-button, .next-button {
-    margin-top: 10px;
-}
-
-button {
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #555;
 }
 
 .inscribirseLink {
@@ -173,6 +220,7 @@ button:hover {
     background-color: #46e9cc;
     color:black;
     padding: 10px 20px;
+    font-weight: bolder;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
@@ -182,6 +230,7 @@ button:hover {
     margin-top: 20px; 
     margin-left: 100pz
     ;
+    font-family: monospace;
 }
 
 .inscribirseLink:hover {

@@ -14,22 +14,7 @@
 <body>
     <header>
         <img src= "imagenes/logoPatagonicas.png" alt="logo" class="imgLogo">
-       
-        <div id="register-section" class="usuariaRegistro">
-            <h2>Iniciar Sesión</h2>
-            <div id="bienvenidaMensaje">
-                <form id="login-form">
-                    <input type="text" id="new-username" placeholder="Nombre de Usuaria" required>
-                    <input type="password" id="new-password" placeholder="Contraseña" required>
-                    <button type="submit" id="login-button">Iniciar Sesión</button>
-                    <button type="submit" id="forgot-password-button">Olvidé mi contraseña</button>
 
-                </form>
-                <div id="message" style="display: none;"></div>
-                <p>¿No tienes una cuenta? <a href="/paginas/Registro.html">Regístrate</a></p>
-            </div>
-        </div>
-        
         
         <nav class="navegacion">
         <a href="paginas/laFundacion.html">LaFundación</a>
@@ -44,10 +29,12 @@
         <img src="imagenes/patagFinal.jpg" alt="" class="pat"> 
         
         <p class="parrafoH1">
-            <strong>Somos una organización de mujeres</strong>
-            <span class="animacion">que queremos más mujeres en el ecosistema TECnológico</span>
+            <strong>Somos una organización de <strong>MUJERES</strong>
+            <span class="animacion"> <strong>que queremos más MUJERES en el ecosistema TECnológico</strong></span>
         </p>
-          
+                 
+    
+        
      
             <div class="videoContainer">
                 <iframe
@@ -61,6 +48,22 @@
                     id="videoPlayer"
                 ></iframe>
                         </div>
+                        <div id="register-section" class="usuariaRegistro">
+                            <h2>Iniciar Sesión</h2>
+                                     <div id="bienvenidaMensaje">
+                                    <form id="login-form">
+                                        <input type="text" id="new-username" placeholder="Nombre de Usuaria" required>
+                                        <input type="password" id="new-password" placeholder="Contraseña" required>
+                                        <button type="submit" id="login-button"><strong>Iniciar Sesión</strong></button>
+                                        <button type="button" id="forgot-password-button"><strong>Olvidé mi contraseña</strong></button>
+                                        <a href="/paginas/Registro.html">
+                                            <button type="button" id="register-button"><strong>Regístrate</strong></button>
+                                        </a>
+                                        <p id="message" style="display: none;"></p>
+                                    </form>
+                                </div>
+                            </div>
+
             
     </header>
     <main>
@@ -80,7 +83,7 @@
                 <img src="imagenes/ia.png" alt="inteligenciaArtificial" class="image">
                 <img src="imagenes/realidad-aumentada.png" alt="realidadAumentada" class="image">
             </div>
-            <input type="button" value="Mas información" id="btnNovedades" class="inscribirseLink">
+            <a href="paginas/contacto.html"> <button type="submit" id="register-button"><strong>Quiero Informacion</strong></button></a>
             
                      
         <h2>Formaciones pagas</h2>
@@ -91,7 +94,7 @@
         <img src="imagenes/Machine-learning.jpg" alt="machineLearning" class="image">
 
         </div> 
-        <input type="button" value="Mas información" id="btnNovedades" class="inscribirseLink">
+        <a href="paginas/contacto.html"> <button type="submit" id="register-button"><strong>Quiero Informacion</strong></button></a>
         
    
     <h2>COLABORA CON NOSOTRAS</h2>
@@ -100,7 +103,7 @@
        <img src="imagenes/tazaPri.jpg" class="image"></a>
     </div>
        <script src="https://www.mercadopago.com.ar/integrations/v1/web-payment-checkout.js"
-data-preference-id="59122948-8f9eba91-a099-4859-958a-33e193c9ff9e" data-source="button">
+data-preference-id="59122948-8f9eba91-a099-4859-958a-33e193c9ff9e"  data-source="button">
 </script>
  
     
@@ -120,6 +123,7 @@ data-preference-id="59122948-8f9eba91-a099-4859-958a-33e193c9ff9e" data-source="
 
 <script src="script.js"></script>
 <script src="registro.js"></script>
+<script src="inicioSesion.js"></script>
 </body>
 </html>
 
