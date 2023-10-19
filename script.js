@@ -1,20 +1,24 @@
- // ANIMAR EL PARRAFO
+
+window.addEventListener("load", function() {
+    const h1Element = document.querySelector(".h1Paginas");
+    h1Element.style.opacity = 0;
+    let opacity = 0;
+    const animationInterval = setInterval(function() {
+       if (opacity >= 4) {
+                clearInterval(animationInterval); // Detén la animación cuando la opacidad alcanza 1.
+       } else {
+                opacity += 0.02;
+            }
+        }, 20);
+    });
+    
+
+// ANIMAR EL PARRAFO
  document.addEventListener("DOMContentLoaded", function() {
 const parrafo = document.querySelector(".parrafoH1");
 parrafo.classList.add("animado");
   }); 
-window.addEventListener("load", function() {
-const h1Element = document.querySelector(".h1Paginas");
-h1Element.style.opacity = 0;
-let opacity = 0;
-const animationInterval = setInterval(function() {
-   if (opacity >= 1) {
-            clearInterval(animationInterval); // Detén la animación cuando la opacidad alcanza 1.
-   } else {
-            opacity += 0.02;
-        }
-    }, 20);
-});
+  
 
 
 
